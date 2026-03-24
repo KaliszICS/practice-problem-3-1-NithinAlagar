@@ -11,15 +11,14 @@ public class PracticeProblem {
 	
 	}
 
-}
-public static String evenOrOdd(int num){
+	public static String evenOrOdd(int num){
 	if (0 == num%2) {
 	return "Even";
 	}
 	return "Odd";
 	
 
-}
+	}
 
 public static String teacherOrStudent(String name){
     if ("Kalisz".equals()){
@@ -38,6 +37,7 @@ public static int fartherFromZero(int num){
         }
         num = num - 5;
     }
+}
 }
 
     
