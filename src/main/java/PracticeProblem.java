@@ -25,6 +25,7 @@ public static String teacherOrStudent(String name){
         return "Teacher";
     }
     return "Student";
+}
     
 public static int fartherFromZero(int num){
     if (num>0){
@@ -40,18 +41,3 @@ public static int fartherFromZero(int num){
 }
 }
 
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-}
