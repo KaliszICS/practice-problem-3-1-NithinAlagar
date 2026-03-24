@@ -12,7 +12,7 @@ public class PracticeProblem {
 	}
 
 }
-public static boolean evenOrOdd(int num){
+public static String evenOrOdd(int num){
 	if (0 == num%2) {
 	return "Even";
 	}
@@ -21,13 +21,13 @@ public static boolean evenOrOdd(int num){
 
 }
 
-public static boolean teacherOrStudent(String name){
+public static String teacherOrStudent(String name){
     if ("Kalisz".equals()){
         return "Teacher";
     }
     return "Student";
     
-public static boolean fartherFromZero(int num){
+public static int fartherFromZero(int num){
     if (num>0){
         num = num + 5;
         return num;
@@ -39,6 +39,14 @@ public static boolean fartherFromZero(int num){
         num = num - 5;
     }
 }
+
+    
+    
+    
+    
+    
+    
+    
     
     
     
