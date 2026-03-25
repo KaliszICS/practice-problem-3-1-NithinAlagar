@@ -9,16 +9,16 @@ public class PracticeProblem {
 	public static void main(String args[]) {
 	
 	
-	}
+	
 
 	public static String evenOrOdd(int num){
 	if (0 == num%2) {
 	return "Even";
 	}
 	return "Odd";
-	
-
 	}
+
+	
 
 public static String teacherOrStudent(String name){
     if ("Kalisz".equals(name)){
@@ -26,6 +26,7 @@ public static String teacherOrStudent(String name){
     }
     return "Student";
 }
+
     
 public static int fartherFromZero(int num){
     if (num>0){
@@ -36,8 +37,10 @@ public static int fartherFromZero(int num){
         if (num = 0){
             return 0;
         }
-        num = num - 5;
+    	num = num - 5;
+	return num;
     }
 }
-}
 
+}
+}
