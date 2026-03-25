@@ -21,7 +21,7 @@ public class PracticeProblem {
 	}
 
 public static String teacherOrStudent(String name){
-    if ("Kalisz".equals()){
+    if ("Kalisz".equals(name)){
         return "Teacher";
     }
     return "Student";
