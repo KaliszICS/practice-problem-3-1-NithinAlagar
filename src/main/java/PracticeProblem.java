@@ -7,11 +7,13 @@
 public class PracticeProblem {
 
 	public static void main(String args[]) {
+
+    }
     public static String evenOrOdd(int num){
 	    if (0 == num%2) {
 	        return "Even";
 	    }
-	    return "Odd";
+	return "Odd";
 	}
 
 	
@@ -20,23 +22,18 @@ public class PracticeProblem {
         if ("Kalisz".equals(name)){
             return "Teacher";
         }
-        return "Student";
+    return "Student";
     }
     
         
     public static int fartherFromZero(int num){
-        if (num>0){
-            num = num + 5;
-            return num;
+        if (num>0){ 
+            return num+5;
         }
         if (num < 0){
-            if (num == 0){
-                return 0;
-            }
-        	num = num - 5;
-    	return num;
+            int num1 = num - 5;
+            return num1;
         }
-    }
-
+        return 0;
     }
     }
